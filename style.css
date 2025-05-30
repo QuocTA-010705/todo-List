@@ -47,6 +47,12 @@ input[type="text"]{
     font-size: 16px;
     transition: all 0.3s;
 }
+@media (max-width:450px) {
+    .todo-item{
+        max-width: 93%;
+    }
+    
+}
 input[type="text"]:focus-within {
     transform: translateY(-5px);
 }
